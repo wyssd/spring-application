@@ -20,8 +20,6 @@ public class BootStrapData implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        System.out.println("Loding everthing shit");
-
         Product p1 = new Product();
         p1.setName("Samsung Note 8");
         p1.setPrice("800.-");
